@@ -1,0 +1,315 @@
+body
+{
+    margin: 0;
+}
+p
+{
+    margin: 0;
+    font-weight: bold;
+}
+p1{
+    margin: 0;
+}
+p2
+{
+    font-size: 40px;
+}
+img{
+    max-width: 100%;
+}
+.header
+{
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: rgb(240, 239, 234);
+    color: black;
+    font-size: 20px;
+    -webkit-box-shadow: 0px -14px 5px 15px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 0px -14px 5px 15px rgba(34, 60, 80, 0.2);
+    box-shadow: 0px -14px 5px 15px rgba(34, 60, 80, 0.2);
+    display: flex;
+    flex-direction: row;
+}
+.void 
+{
+    background-color: rgb(240, 239, 234);
+    padding: 5%;
+}
+.center
+{
+    background-color: rgb(240, 239, 234);
+    color: black;
+    display: flex;
+    flex-direction: row;
+}
+.job
+{
+    background-color: rgb(240, 239, 234);
+    color: black;
+    display: flex;
+    flex-direction: row;
+    padding: 10%;
+    @media (max-width: 414px){
+        flex-direction: column;
+    }
+}
+.ourjob
+{
+    margin: 5%;
+    text-align: center;
+    margin-top: 18%;
+    font-size: 25px;
+}
+.image
+{
+    margin-right: 10%;
+    display: none;
+    @media (max-width: 414px){
+        display: none;
+    }
+}
+.image1
+{
+    border-radius: 20px;
+    max-width: 60%;
+    display: none;
+    @media (max-width: 414px){
+        display: none;
+    }
+}
+.text1
+{
+    background-color: rgb(240, 239, 234);
+    color: black;
+    padding-top: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 40px;
+    @media (max-width: 414px){
+        width: 96%;
+        margin-left: 2%;
+        margin-right: 2%;
+        font-size: 25px;
+    }
+}
+.blocks
+{
+    background-color: rgb(240, 239, 234);
+    color: black;
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+.blocks
+{
+    display: flex;
+    flex-direction: row;
+    @media (max-width: 414px){
+        flex-direction: column;
+    }
+}
+.blocks3
+{
+    background-color: rgb(240, 239, 234);
+    display: flex;
+    flex-direction: row;
+    @media (max-width: 414px){
+        flex-direction: column;
+    }
+}
+.blocks4
+{
+    flex-direction: column;
+    @media (max-width: 414px){
+        flex-direction: row;
+    }
+}
+.block8
+{
+    width: 40vw;
+    padding: 2.4vw;
+    margin: 2.4vw;
+    background-color: white;
+    font-size: 20px;
+    @media (max-width: 414px){
+        width: 90vw;
+    }
+}
+.napr
+{
+    text-align: center;
+    font-size: 40px;
+    padding-top: 2%;
+    background-color: rgb(240, 239, 234);
+}
+.block1
+{
+    background-color: white;
+    margin-left: 10%;
+    padding: 3%;
+    font-size: 25px;
+    border-radius: 20px;
+    text-decoration: none;
+    color:black;
+    @media (max-width: 414px){
+        margin: 2%;
+        margin-left: 10%;
+        margin-right: 10%;
+        font-size: 20px;      
+    }
+}
+.block2
+{
+    background-color: white;
+    margin-left: 5%;
+    padding: 3%;
+    font-size: 25px;
+    border-radius: 20px;
+    text-decoration: none;
+    color:black;    
+    @media (max-width: 414px){
+        margin: 2%;
+        margin-left: 10%;
+        margin-right: 10%;
+        font-size: 20px;      
+    }
+}
+.ann
+{
+    margin: 5%;
+    background-color: rgb(235, 219, 188);
+    font-size: 25px;
+    padding: 3%;
+    border-radius: 20px;
+}
+.our
+{
+    margin-left: 5%;
+    font-size: 40px;    
+    @media (max-width: 414px){
+        font-size: 25px;      
+    }
+}
+.blocks2
+{
+    margin: 5%;
+    display: flex;
+    flex-direction: row;    
+    @media (max-width: 414px){
+        flex-direction: column;
+        margin: 0%;
+    }
+}
+.block3
+{
+    color:black;
+    background-color: rgb(240, 239, 234);
+    margin: auto;
+    margin-right: 2%;
+    padding: 3%;
+    font-size: 25px;
+    border-radius: 20px;
+    text-decoration: none;
+    width: 25vw;   
+    @media (max-width: 414px){
+        margin: 5%;
+        padding: 3%;
+        font-size: 25px;
+        border-radius: 20px;
+        text-decoration: none;
+        width: 84vw;
+        font-size: 20px;      
+    }
+}
+.block4
+{
+    color:black;
+    background-color: rgb(240, 239, 234);
+    margin: auto;
+    padding: 3%;
+    font-size: 25px;
+    border-radius: 20px;
+    text-decoration: none;
+    width: 25vw;   
+    @media (max-width: 414px){
+        margin: 5%;
+        padding: 3%;
+        font-size: 25px;
+        border-radius: 20px;
+        text-decoration: none;
+        width: 84vw;
+        font-size: 20px;      
+    }
+}
+.block5
+{
+    color:black;
+    background-color: rgb(240, 239, 234);
+    margin: auto;
+    margin-left: 2%;
+    padding: 3%;
+    font-size: 25px;
+    border-radius: 20px;
+    text-decoration: none;
+    width: 25vw;   
+    @media (max-width: 414px){
+        margin: 5%;
+        padding: 3%;
+        font-size: 25px;
+        border-radius: 20px;
+        text-decoration: none;
+        width: 84vw;   
+        font-size: 20px;      
+    }
+}
+.block6
+{
+    width: 40vw;
+    padding: 2.5vw;
+    margin: 2.5vw;
+    background-color: white;
+    font-size: 20px;
+    @media (max-width: 414px){
+        width: 90vw;
+    }
+}
+.block7
+{
+    width: 40vw;
+    padding: 2.5vw;
+    margin: 2.5vw;
+    background-color: white;
+    font-size: 20px;
+}
+.dropbtn {
+    font-size: 20px;
+    border: none;
+    background-color: rgb(240, 239, 234);
+    padding: 16px;
+    border: none;
+  }
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    width: 100vw;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {background-color: #ddd;}
+  
+.dropdown:hover .dropdown-content {display: block;}
+  
+.dropdown:hover .dropbtn{
+    background-color: rgb(204, 203, 199);
+}
